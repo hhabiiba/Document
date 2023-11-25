@@ -69,11 +69,60 @@ footer {
     padding: 0px;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 768px) {
+    header h1 {
+        font-size: 30px;
+        padding: 10px;
+    }
+
     section {
         padding: 10px;
     }
-}
 
+    table {
+        font-size: small;
+    }
+} */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px;
+    }
+
+
+    header h1 {
+        font-size: 28px; /* Adjust font size for smaller screens */
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    
+    table {
+        font-size: small;
+    }
+
+   
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Form Styling for Smaller Screens */
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    /* Footer Styling */
+    footer {
+        padding: 10px;
+    }
+}
 
 
